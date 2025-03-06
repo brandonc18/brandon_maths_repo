@@ -2,14 +2,14 @@
 
 using namespace std;
 
-void power(int num, int power) {
+int power(int num, int power) {
   for (int i = 1; i < power; i++) {
     num *= num;
   }
-  cout << num << endl;
+  return num;
 }
 
 int main() {
   cout << "Github Test" << endl;
-  power(10, 2);
+  cout << power(10, 2) << endl;
 }
