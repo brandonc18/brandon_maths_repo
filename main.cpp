@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void power(int num, int power) {
+void power(double num, int power) {
   for (int i = 1; i < power; i++) {
     num *= num;
   }
@@ -11,5 +11,5 @@ void power(int num, int power) {
 
 int main() {
   cout << "Github Test" << endl;
-  power(10, 2);
+  power(10.0, 2);
 }
