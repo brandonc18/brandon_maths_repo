@@ -2,4 +2,9 @@
 
 using namespace std;
 
-int main() { cout << "Github Test" << endl; }
+void square(int num) { cout << num * num << endl; }
+
+int main() {
+  cout << "Github Test" << endl;
+  square(10);
+}
