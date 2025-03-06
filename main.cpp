@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int power(int num, int power) {
+void power(double num, int power) {
   for (int i = 1; i < power; i++) {
     num *= num;
   }
