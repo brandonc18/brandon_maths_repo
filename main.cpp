@@ -2,9 +2,14 @@
 
 using namespace std;
 
-void square(int num) { cout << num * num << endl; }
+void power(int num, int power) {
+  for (int i = 1; i < power; i++) {
+    num *= num;
+  }
+  cout << num << endl;
+}
 
 int main() {
   cout << "Github Test" << endl;
-  square(10);
+  power(10, 2);
 }
